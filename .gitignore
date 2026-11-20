@@ -1,0 +1,33 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Auth & credentials
+.clasprc.json
+.clasp.json
+*sa-key*.json
+*credentials*.json
+service-account*.json
+*gcp-key*.json
+*secret*.json
+*.pem
+*.key
+
+# Python virtual environments & caches
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node & OS artifacts
+node_modules/
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/settings.json
